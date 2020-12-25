@@ -15,8 +15,7 @@ app.use("/admin/product",adminRoutes);
 app.use("/shop/",shopRoutes);
 app.use(notFoundRoutes);
 
-
-
+// add new comment
 // app.use((req, res, next) => {
 //   console.log("mw 1");
 //   res.send('Hello there');
